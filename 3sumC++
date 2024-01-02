@@ -1,6 +1,6 @@
-class Solution {
-public:
-    vector<vector<int>> threeSum(vector<int>& num) {
+#include <bits/stdc++.h>
+using namespace std;
+vector<vector<int>> threeSum(vector<int>& num) {
         vector<vector<int>> res; 
         sort(num.begin(), num.end()); 
         
@@ -32,4 +32,10 @@ public:
         }
         return res;
     }
-};
+
+int main()
+{
+     
+     return 0;
+}
+    
